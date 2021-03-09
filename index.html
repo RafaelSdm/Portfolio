@@ -121,10 +121,10 @@
             <div class="projetos">
               <div class="card">
                 <div class="card-img-wrapper">
-                  <img src="imagens/Captura de tela de 2021-03-08 17-51-01.png" alt="imagem do projeto ToDo" />
+                  <img src="imagens/php.jpg" alt="imagem do projeto ToDo" />
                 </div>
                 <div class="card-info">
-                    <h2>Limux</h2>
+                    <h2>PHP</h2>
                     <h3>Debian</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus vero maxime amet magnam doloribus eos consequatur expedita architecto hic?</p>
                   <button class="btn">Saiba Mais</button>
@@ -132,10 +132,10 @@
               </div>
               <div class="card">
                 <div class="card-img-wrapper">
-                  <img src="imagens/programar-python (1).png" alt="imagem do projeto Maratona" />
+                  <img src="imagens/py.png "alt="imagem do projeto Maratona" />
                 </div>
                 <div class="card-info">
-                    <h2>Python</h2>
+                    <h2 class="py">Python</h2>
                     <h3>Curso em Video</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vero aliquam? Pariatur libero voluptas ipsam ullam consectetur ab facilis cumque.</p>
                   <button class="btn">Saiba Mais</button>
@@ -159,17 +159,17 @@
               <div class="contato-left"></div>
               <div class="contato-right">
                 <h1>Contato</h1>
-                <form>
+                <form class="form" method="POST" action="email.php">
                   <div class="input-group">
-                    <input type="text" class="field" id="nome">
+                    <input type="text" class="field" name="name" id="nome">
                     <label for="nome" class="field-label">Nome</label>
                   </div>
                   <div class="input-group">
                     <input type="text" class="field" id="email">
-                    <label for="email" class="field-label">E-mail</label>
+                    <label for="email" name="email" class="field-label">E-mail</label>
                   </div>
                   <div class="input-group">
-                    <textarea class="field" id="mensagem"></textarea>
+                    <textarea class="field" name="mesage" id="mensagem"></textarea>
                     <label for="mensagem" class="field-label">Mensagem</label>
                   </div>
                   <button type="submit" class="btn btn-submit">Enviar</button>
@@ -180,13 +180,13 @@
           <footer>
             <div class="footer-content">
               <p style="text-align: center;">
-                Copyright &copy; Rafael De Souza Damaceno - UNIPAC - Ciência Da Computação
+                Copyright &copy; Rafael De Souza Damasceno - UNIPAC - Ciência Da Computação
               </p>
               <div class="social-list">
                 <ul>
-                  <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                  <li><a href="#"><i class="fab fa-github-square"></i></a></li>
-                  <li><a href="#"><i class="fab fa-whatsapp-square"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/rafael-damasceno-6502a7204/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="https://github.com/RafaelSdm"><i class="fab fa-github-square" target="_blank" ></i></a></li>
+                  <li><a href="https://api.whatsapp.com/send?phone=5531984888596" target="_blank"><i class="fab fa-whatsapp-square "></i></a></li>
                   </div>
                 </ul>
               </div>

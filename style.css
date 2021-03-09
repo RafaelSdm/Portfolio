@@ -36,18 +36,20 @@ header{
     cursor: pointer;
 }
 .iconeMenu i:hover{
-    color: var(--corSecundaria);;
+    color: rgb(174, 141, 80)
 }
 .iconeMenu span{
     position: absolute;
     left: 3rem;
     background-color: var(--corSecundaria);
+
+    color: antiquewhite;
     height: 2rem;
     width: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--corPrimaria);
+    
     font-family: var(--font-action);
     opacity: 0;
 }
@@ -195,6 +197,7 @@ header{
     transform: translate(-50%, -50%);
 }
 .menu-item{
+    
     text-align: center;
     margin-bottom: 0.5rem;
 }
@@ -282,10 +285,17 @@ header{
 .conhecimento-header i{
     font-size: 2.5rem;
 }
+.conhecimento-header i:hover{
+    color: var(--corSecundaria);
+}
 .conhecimento-header h3{
     font-family: var(--corSecundaria);
     font-size: 2rem;
     padding-left: 1rem;
+}
+.conhecimento-header h3:hover{
+    color: var(--corSecundaria);
+    cursor: pointer;
 }
 .conhecimento-text{
     font-family: var(--font-secudary);
@@ -402,7 +412,7 @@ header{
 .contato-left{
     width: 35%;
     background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-        url(imagens/contato.jpg);
+        url(imagens/unnamed.jpg);
     background-size: cover;
 }
 .contato-right {
@@ -444,7 +454,8 @@ header{
     max-height: 3rem;
 } 
 .field-label {
-    position: absolute;
+    
+    position: relative;
     left: 0;
     top: 2rem;
     font-size: 1rem;
@@ -464,7 +475,7 @@ header{
     text-transform: uppercase;
     width: 80%;
     height: 2.5rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     letter-spacing: 0.2rem;
     cursor: pointer;
     text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
@@ -501,6 +512,10 @@ footer{
 .social-list ul {
     display: flex;
 }
+
+.social-list ul li a:hover{
+    color: var(--corSecundaria);
+}
   
 #link-topo{
     position: fixed;
@@ -518,3 +533,4 @@ footer{
     border-radius: .3rem;
     box-shadow:  0 0.1rem 0.6rem #00000009;
 }
+
