@@ -152,7 +152,11 @@ header{
     opacity: 0;
     animation: moveBanner 1s 0.7s forwards;
 }
-.banner button{
+
+.banner button a{
+    color: white;
+}
+.banner button {
     font-family: var(--font-action);
     color: black;
     font-size: 1.2rem;

@@ -1,0 +1,229 @@
+/* 1font-family: 'Syne Mono', monospace; 2 font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Syne Mono', monospace;  3 font-family: 'Blinker', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Syne Mono', monospace;*/
+
+
+
+body{
+    font-family: 'Open Sans Condensed',sans-serif ;
+    color: rgb(0, 0, 0);
+}
+
+h1 , h2, h3{
+    font-family: 'Syne Mono',monospace;
+    color: black;
+}
+
+
+.botao{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: yellow;
+    font-size: .9em;
+    border-radius: 3px ;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(31, 28, 233);
+}
+
+nav > a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Syne Mono',monospace;
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 900;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("imagens/web-3706562_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: chartreuse;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    color: aliceblue;
+}
+
+header p{
+    margin-bottom: 2em;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: blue ;
+}
+
+#sobre h2{
+    color: black;
+    
+
+}
+
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre .botao{
+    background-color: aquamarine;
+    color: yellow;
+}
+
+#tete{
+    font-size: 70px;
+    color: black;
+}
+
+#servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#servicos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(51, 57, 61);
+
+}
+
+#contato h2{
+    color: white;
+
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: cadetblue;
+    color: black;
+}
+
+
+@media screen and (min-width:768px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    #sobre{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+
+    #servicos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+
+    }
+
+    #servicos h2{
+        text-align: center;
+        width: 100%;
+    }
+
+    #servicos div{
+
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 30px;
+        
+
+    }
+
+    #contato{
+        background-color: yellow;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width:500px ;
+        margin: 0 auto;
+    }
+
+
+    #contato h2, #contato p{
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+
