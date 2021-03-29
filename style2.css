@@ -1,0 +1,342 @@
+/* font-family: 'Kiwi Maru', serif;
+font-family: 'Kiwi Maru', serif; */
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kiwi Maru', serif;
+    
+
+
+}
+
+.center{
+    max-width: 1100px;
+    margin:0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: rgb(7, 26, 43);
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(0, 255, 8);
+}
+
+.logo{
+
+    color: bisque;
+
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.menu  {
+    width: 80%;
+    text-align: right;
+}
+
+
+ .menu a{
+     color: bisque;
+     text-decoration: none;
+     font-size: 14px;
+     margin-right: 20px;
+     transition: 1.0s;
+     
+
+ }
+
+ .menu a:hover{
+     color: blue;
+
+ }
+
+ .menu .btn-menu{
+     background-color: rgb(150, 150, 169);
+     display: inline-block;
+     padding: 8px 16px ;
+     border-radius: 8px;
+ }
+
+ .menu .btn-menu:hover{
+     background-color: yellow;
+     color: rgb(42, 187, 95);
+ }
+
+ .menu-mobile{
+     display: none;
+ }
+
+
+ 
+
+ section.main{
+     background-image: url('imagens/hexagon-2307350_1280.png');
+     
+     padding: 70px 0;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     
+ }
+
+ .main-cta{
+
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+
+
+
+ }
+
+ .main-cta h2{
+     color: blue;
+     font-size: 40px;
+ }
+
+ .main-cta p{
+     color: brown;
+     font-size: 19px;
+     margin: 10px 0;
+ }
+
+ .main-cta button{
+     background-color: rgb(133, 107, 133);
+     color: aqua;
+     display: inline-block;
+     border-radius: 6px;
+     padding: 8px 16px;
+     cursor: pointer;
+ }
+
+ .diferenciais{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .diferencial-single{
+     border-radius: 8px;
+     background-color: rgb(214, 208, 208);
+     width: 23%;
+     margin-right: 2%;
+     opacity: 0.5;
+     padding: 50px 20px;
+     
+ }
+
+ .diferencial-single:hover{
+     opacity: 1.0;
+ }
+
+ .diferencial-single i{
+     color: rgb(34, 6, 56);
+     font-size: 27px;
+     
+
+ }
+
+ .diferencial-single h2{
+     color: rgb(29, 7, 63);
+     font-size: 17px;
+ }
+
+ .diferencial-single p{
+     color: rgb(94, 91, 88);
+     font-size: 14px;
+     line-height: 30px;
+
+ }
+
+ section.sobre{
+
+    padding: 80px 0 ;
+
+ }
+
+ .chamada-sobre{
+     width: 100%;
+     text-align: center;
+
+ }
+
+ .chamada-sobre h2{
+     color: slateblue;
+     text-transform: uppercase;
+ }
+
+ .chamada-sobre p{
+     font-size: 14px;
+     color: green;
+     margin: 10px 0;;
+ }
+
+ .conteudo-sobre{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+.conteudo-sobre span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+   
+
+}
+
+.conteudo-sobre i{
+    color: aqua;
+}
+
+section.conquistas{
+    background-color: rgb(168, 168, 197);
+    padding: 20px 0 ;
+}
+
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.conquista-single h2{
+    color: rgb(12, 51, 51);
+}
+
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    font-family: 'Kiwi Maru', serif;
+    padding-top: 40px;
+    color: yellow;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.sociais{
+
+    list-style: none;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.sociais li{
+    margin: 0 10px;
+
+}
+
+.sociais a{
+    text-decoration: none;
+    color: aqua;
+
+}
+
+.sociais a i{
+    font-size: 1.1rem;
+    transition: color 2.0s ease-in-out;
+}
+
+.sociais a:hover{
+    color: yellow;
+
+}
+
+.footer-bottom{
+
+    background: rgb(169, 169, 150);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: -4;
+    font-weight: 700;
+    color: blue;
+}
+@media screen and (max-width:760px){
+     .diferencial-single{
+         width: 100%;
+         margin-bottom: 20px;
+     }
+
+     .conteudo-sobre p{
+         width: 100%;
+         margin: 20px 20px ;
+     }
+
+
+     .menu{
+         display: none;
+     }
+     .menu-mobile{
+         width: 80%;
+         text-align: right;
+
+         display: block ;
+         cursor: pointer;
+     }
+
+     .logo{
+         width: 20%;
+     }
+
+     .menu-mobile i{
+         font-size: 25px;
+         color: antiquewhite;
+         margin-top: 8px;
+     }
+ }
+
